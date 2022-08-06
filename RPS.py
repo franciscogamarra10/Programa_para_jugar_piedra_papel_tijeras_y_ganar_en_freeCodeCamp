@@ -35,7 +35,7 @@ def player(prev_opponent_play,
         # print(posibles)
         # print(posibles.keys(),posibles.values())
         ### retorna el maximo de posibles en la cadena, si hay varios maximos va a devolver el primero que encuentre
-        prediction = max(posibles, key=lambda key: cadena[key])[-1:]
+        prediction = max(posibles, key=lambda x: cadena[x])[-1:]
         
 
        
